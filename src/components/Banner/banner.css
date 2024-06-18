@@ -1,0 +1,15 @@
+
+
+#bannerContainer {
+    width: 60%;
+    background-color: #0e4e3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #0c3026;
+}
+#bannerContainer img {
+    width: 50%;
+}

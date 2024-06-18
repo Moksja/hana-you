@@ -1,0 +1,29 @@
+#cardsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    height: 90%;
+    background-color: black;
+    margin-left: 2%;
+    margin-top: 1%;
+    justify-content: space-around;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 180px;
+    height: 210px;
+}
+
+.card img {
+    width: 95%;
+    height: 60%;
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 0;
+}
